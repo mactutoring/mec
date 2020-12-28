@@ -533,7 +533,7 @@ div.notices.tip p {
     background: #E6F9E6;
 }
 div.notices.tip p:first-child:after {
-    content: 'Tip';
+    content: 'OER';
 }
 
 /* attachments shortcode */
