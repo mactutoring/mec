@@ -186,7 +186,28 @@
   <ol>
     <li><a href="https://www.laguardia.edu/uploadedFiles/Main_Site/Content/Academics/Departments/MEC/Doc/Syllabus/MAC190.pdf" target="_blank">Course Syllabus</a></li>
     <li><a href="#oer-books">OER Object-Oriented Programming Textbooks</a></li>
-    <li><a href="#book-sections">Specific OOP Topics</a></li>
+    <li><a href="#book-sections">Specific OOP Topics</a>
+      <ul style="line-height:120%">
+        <li><a href="#valiables">Variables and Operators</a></li>
+        <li><a href="#input">Input and Output</a></li>
+        <li><a href="#strings">Strings</a></li>
+        <li><a href="#loop">Loops</a></li>
+        <li><a href="#objects">Classes and Objects</a></li>
+        <li><a href="#methods">Methods</a></li>
+        <li><a href="#inh">Inheritance, Polymorphism and Abstract Classes</a></li>
+        <li><a href="#arrays">Arrays and ArrayLists</a></li>
+        <li><a href="#search">Searching and Sorting</a></li>
+        <li><a href="#arr2">Two-Dimensional Arrays</a></li>
+        <li><a href="#inter">Interface</a></li>
+        <li><a href="#recur">Recursion</a></li>
+        <li><a href="#linkl">LinkedList</a></li>
+        <li><a href="#stack">Stacks and Queues</a></li>
+        <li><a href="#except">Exception Handling</a></li>
+        <li><a href="#fx">JavaFx</a></li>
+      </ul>
+    </li>
+    <li><a href="#video-ref">Video Resources</a></li>
+    <li><a href="#soft-ref">Software Resources</a></li>
   </ol>
   <br>
 
@@ -224,139 +245,244 @@
  </table>
  <br>
 
-   <!--TOPICS TABLE-->
- <h3 id="book-sections">Specific OOP Topics</h3>
+    <!--TOPICS TABLE-->
+  <h3 id="book-sections">Specific OOP Topics</h3>
 
- <table>
-  <thead>
-    <tr>
-      <th>Topic</th>
-      <th>Textbook Section</th>
-      <th>Web Resources</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>Variables and Operators</td>
-    <td>
-      <p><a href="https://books.trinket.io/thinkjava/chapter2.html" target="_blank">Variables</a></p>
-    </td>
-    <td>
-      <p><a href="https://www.w3schools.com/java/java_variables.asp" target="_blank">Variables </a> (W3Schools)</p>
-      <p><a href="https://www.w3schools.com/java/java_operators.asp" target="_blank">Operators</a> (W3Schools)</p>
-      <p><a href="https://www.tutorialspoint.com/java/java_variable_types.htm" target="_blank">Variable Types </a> (TutorialsPoint)</p>
-      <p><a href="https://www.tutorialspoint.com/java/java_basic_operators.htm" target="_blank">Basic Operators </a> (TutorialsPoint)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>Input and Output</td>
-    <td>TBD</td>
-    <td><p><a href="https://www.geeksforgeeks.org/java-io-input-output-in-java-with-examples/" target="_blank">Input-Output </a> (GeeksforGeeks)</p>
-        <p><a href="https://www.javatpoint.com/java-io" target="_blank">Java I/O </a> (JavaTPoint)</p>
-        <p><a href="https://www.w3schools.com/java/java_user_input.asp" target="_blank">User Input Scanner</a> (W3Schools)</p>
-        <p><a href="https://www.tutorialspoint.com/java/java_files_io.htm" target="_blank">Files and I/O</a> (TutorialsPoint)</p>
-        <p><a href="https://www.w3schools.com/java/java_files.asp" target="_blank">File Handling </a> (W3Schools)</p>
-    </td>
-  </tr>
-  <tr>
-    <td>Strings</td>
-    <td>TBD</td>
-    <td><p><a href="https://www.w3schools.com/java/java_strings.asp" target="_blank">Strings </a> (W3Schools)</p>
-        <p><a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html" target="_blank">Class String</a> (Oracle)</p>
-        <p><a href="https://www.tutorialspoint.com/java/java_strings.htm" target="_blank">Strings Class </a> (TutorialsPoint) </p>
-        <p><a href="https://www.geeksforgeeks.org/strings-in-java/" target="_blank">Strings in Java</a> (GeeksforGeeks) </p>
-    </td>
-  </tr>
-  <tr>
-    <td>Conditionals and Logic</td>
-    <td><a href="https://books.trinket.io/thinkjava/chapter5.html" target="_blank">Conditionals and Logic</a></td>
-    <td><p><a href="https://www.learnjavaonline.org/en/Conditionals" target="_blank">Conditionals </a> (LearnJavaOnline)</p>
-        <p><a href="https://www.w3resource.com/java-tutorial/java-conditional-operators.php" target="_blank">Relational Operators</a> (W3Schools) </p>
-    </td>
-  </tr>
-  <tr>
-     <td>Loops</td>
-     <td>TBD</td>
-     <td><p><a href="https://www.geeksforgeeks.org/loops-in-java/" target="_blank">Loops in Java</a> (GeeksforGeeks)</p>
-         <p><a href="https://www.javatpoint.com/java-for-loop" target="_blank">Loops</a> (JavaTPoint) </p>
-         <p><a href="https://www.tutorialspoint.com/java/java_loop_control.htm" target="_blank">Loop Control</a> (TutorialsPoint) </p>
+  <table>
+   <thead>
+     <tr>
+       <th>Topic</th>
+       <th>Textbook Section</th>
+       <th>Web Resources</th>
+     </tr>
+   </thead>
+   <tbody>
+   <tr>
+     <td id="valiables">Variables and Operators</td>
+     <td>
+       <p><a href="https://books.trinket.io/thinkjava/chapter2.html" target="_blank">Variables</a></p>
      </td>
-  </tr>
-  <tr>
-    <td>Objects and Classes</td>
-    <td> TBD</td>
-    <td><p><a href="https://www.tutorialspoint.com/java/java_object_classes.htm" target="_blank">Objects and Classes </a> (TutorialsPoint)</p>
-        <p><a href="" target="_blank"> </a>  </p>
-        <p><a href="" target="_blank"> </a>  </p>
-    </td>
-  </tr>
-  <tr>
-    <td>Methods</td>
-  </tr>
-  <tr>
-    <td>Inheritance, Polymorphism and Abstract Classes</td>
-  </tr>
-    <td>Arrays and ArrayLists</td>
-  </tr>
-  <tr>
-    <td>Searching and Sorting</td>
-  </tr>
-  <tr>
-    <td>Two-Dimensional Arrays</td>
-  </tr>
-  <tr>
-    <td>Interfaces</td>
-  </tr>
-  <tr>
-    <td>Recursion</td>
-  </tr>
-  <tr>
-    <td>Linked Lists</td>
-  </tr>
-  <tr>
-    <td>Stacks and Queues</td>
-  </tr>
-  <tr>
-    <td>Exceptions</td>
-  </tr>
-  <tr>
-    <td>JavaFX</td>
-  </tr>
-  </tbody>
-</table>
+     <td>
+       <p><a href="https://www.w3schools.com/java/java_variables.asp" target="_blank">Variables </a> (W3Schools)</p>
+       <p><a href="https://www.w3schools.com/java/java_operators.asp" target="_blank">Operators</a> (W3Schools)</p>
+       <p><a href="https://www.tutorialspoint.com/java/java_variable_types.htm" target="_blank">Variable Types </a> (TutorialsPoint)</p>
+       <p><a href="https://www.tutorialspoint.com/java/java_basic_operators.htm" target="_blank">Basic Operators </a> (TutorialsPoint)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="input">Input and Output</td>
+     <td>TBD</td>
+     <td><p><a href="https://www.geeksforgeeks.org/java-io-input-output-in-java-with-examples/" target="_blank">Input-Output </a> (GeeksforGeeks)</p>
+         <p><a href="https://www.javatpoint.com/java-io" target="_blank">Java I/O </a> (JavaTPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_user_input.asp" target="_blank">User Input Scanner</a> (W3Schools)</p>
+         <p><a href="https://www.tutorialspoint.com/java/java_files_io.htm" target="_blank">Files and I/O</a> (TutorialsPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_files.asp" target="_blank">File Handling </a> (W3Schools)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="strings">Strings</td>
+     <td>TBD</td>
+     <td><p><a href="https://www.w3schools.com/java/java_strings.asp" target="_blank">Strings </a> (W3Schools)</p>
+         <p><a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html" target="_blank">Class String</a> (Oracle)</p>
+         <p><a href="https://www.tutorialspoint.com/java/java_strings.htm" target="_blank">Strings Class </a> (TutorialsPoint) </p>
+         <p><a href="https://www.geeksforgeeks.org/strings-in-java/" target="_blank">Strings in Java</a> (GeeksforGeeks) </p>
+     </td>
+   </tr>
+   <tr>
+     <td id="cond">Conditionals and Logic</td>
+     <td><a href="https://books.trinket.io/thinkjava/chapter5.html" target="_blank">Conditionals and Logic</a></td>
+     <td><p><a href="https://www.learnjavaonline.org/en/Conditionals" target="_blank">Conditionals </a> (LearnJavaOnline)</p>
+         <p><a href="https://www.w3resource.com/java-tutorial/java-conditional-operators.php" target="_blank">Relational Operators</a> (W3Schools) </p>
+     </td>
+   </tr>
+   <tr>
+      <td id="loop">Loops</td>
+      <td>TBD</td>
+      <td><p><a href="https://www.geeksforgeeks.org/loops-in-java/" target="_blank">Loops in Java</a> (GeeksforGeeks)</p>
+          <p><a href="https://www.javatpoint.com/java-for-loop" target="_blank">Loops</a> (JavaTPoint) </p>
+          <p><a href="https://www.tutorialspoint.com/java/java_loop_control.htm" target="_blank">Loop Control</a> (TutorialsPoint) </p>
+      </td>
+   </tr>
+   <tr>
+     <td id="objects">Objects and Classes</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.tutorialspoint.com/java/java_object_classes.htm" target="_blank">Objects and Classes </a> (TutorialsPoint)</p>
+         <p><a href="https://www.geeksforgeeks.org/classes-objects-java/" target="_blank">Classes and Objects in Java </a> (GeeksforGeeks)</p>
+         <p><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/index.html" target="_blank">Classes and Objects </a> (Oracle) </p>
+         <p><a href="https://www.programiz.com/java-programming/class-objects" target="_blank">Java Classe and Objects </a> (Programiz) </p>
+     </td>
+   </tr>
+   <tr>
+     <td id="methods">Methods</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.w3schools.com/java/java_methods.asp" target="_blank">Java Methods</a> (W3Schools)</p>
+         <p><a href="https://www.w3schools.com/java/java_class_methods.asp" target="_blank">Java Class Methods</a> (W3Schools)</p>
+         <p><a href="https://www.tutorialspoint.com/java/java_methods.htm" target="_blank">Methods </a> (TutorialsPoint)</p>
+         <p><a href="https://www.geeksforgeeks.org/methods-in-java/" target="_blank">Methods in Java</a> (GeeksforGeeks)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="inh">Inheritance, Polymorphism and Abstract Classes</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.tutorialspoint.com/java/java_inheritance.htm" target="_blank">Inheritance</a> (TutorialsPoint)</p>
+         <p><a href="https://www.geeksforgeeks.org/inheritance-in-java/" target="_blank">Inheritance in Java</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.tutorialspoint.com/java/java_polymorphism.htm" target="_blank">Polymorphism</a> (TutorialsPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_polymorphism.asp" target="_blank">Java Polymorphism</a> (W3Schools)</p>
+         <p><a href="https://www.w3schools.com/java/java_abstract.asp" target="_blank">Java Abstraction</a> (W3Schools)</p>
+         <p><a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html" target="_blank">Abstract Methods and Classes</a> (Oracle)</p>
+     </td>
+   </tr>
+     <td id="arrays">Arrays and ArrayLists</td>
+     <td>TBD</td>
+     <td><p><a href="https://www.tutorialspoint.com/java/java_arrays.htm" target="_blank">Java Arrays</a> (TutorialsPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_arrays.asp" target="_blank">Arrays</a> (W3Schools)</p>
+         <p><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html" target="_blank">Arrays</a> (Oracle)</p>
+         <p><a href="https://www.w3schools.com/java/java_arraylist.asp" target="_blank">Java ArrayList</a> (W3Schools)</p>
+         <p><a href="https://www.geeksforgeeks.org/arraylist-in-java/" target="_blank">ArrayList in Java</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.javatpoint.com/java-arraylist" target="_blank">Java ArrayList</a> (JavaTPoint)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="search">Searching and Sorting</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.geeksforgeeks.org/searching-algorithms-in-java/" target="_blank">Searching Algorithms</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.geeksforgeeks.org/sorting-algorithms/" target="_blank">Sorting Algorithms</a> (GeeksforGeeks)</p>
+         <p><a href="https://stackabuse.com/sorting-algorithms-in-java/" target="_blank">Sorting in Java</a> (StackAbuse)</p>
+         <p><a href="https://stackabuse.com/search-algorithms-in-java/" target="_blank">Search Algorithms</a> (StackAbuse)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="arr2">Two-Dimensional Arrays</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.geeksforgeeks.org/multidimensional-arrays-in-java/" target="_blank">Multidimensional Arrays</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.programiz.com/java-programming/multidimensional-array" target="_blank">2D and 3D Arrays</a> (Programiz)</p>
+         <p><a href="https://www.tutorialgateway.org/two-dimensional-array-in-java/" target="_blank">Two-Dimensional Array</a> (Tutorial Gateway)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="inter">Interfaces</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.tutorialspoint.com/java/java_interfaces.htm" target="_blank">Interfaces</a> (TutorialsPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_interface.asp" target="_blank">Java Interface</a> (W3Schools)</p>
+         <p><a href="https://docs.oracle.com/javase/tutorial/java/concepts/interface.html" target="_blank">What is an Inteface</a> (Oracle)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="recur">Recursion</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.javatpoint.com/recursion-in-java" target="_blank">Recursion in Java</a> (JavaTPoint)</p>
+         <p><a href="https://www.w3schools.com/java/java_recursion.asp" target="_blank">Recursion</a> (W3Schools)</p>
+         <p><a href="https://www.programiz.com/java-programming/recursion" target="_blank">REcursive Methods</a> (Programiz)</p>
+         <p><a href="https://www.geeksforgeeks.org/recursion-in-java/" target="_blank">Recursion in Java</a> (GeeksforGeeks)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="linkl">LinkedList</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.w3schools.com/java/java_linkedlist.asp" target="_blank">Java LinkedList</a> (W3Schools)</p>
+         <p><a href="https://www.geeksforgeeks.org/linked-list-in-java/" target="_blank">LinkedList in Java</a> (GeeksforGeeks)</p>
+         <p><a href="https://beginnersbook.com/2013/12/linkedlist-in-java-with-example/" target="_blank">LinkedList with Example</a> (BeginnersBook)</p>
+         <p><a href="https://www.programiz.com/java-programming/linkedlist" target="_blank">Java LinkedList</a> (Programiz)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="stack">Stacks and Queues</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.geeksforgeeks.org/stack-class-in-java/" target="_blank">Stack Class</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.tutorialspoint.com/java/java_stack_class.htm" target="_blank">The Stack Class</a> (TutorialsPoint)</p>
+         <p><a href="https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html" target="_blank">Class Stack</a> (Oracle)</p>
+         <p><a href="https://www.geeksforgeeks.org/queue-interface-java/" target="_blank">Queue Interface in Java</a> (GeeksforGeeks)</p>
+         <p><a href="https://docs.oracle.com/javase/7/docs/api/java/util/Queue.html" target="_blank">The Interface Queue</a> (Oracle)</p>
+         <p><a href="https://www.javatpoint.com/java-priorityqueue" target="_blank">Java Queue</a> (JavaTPoint)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="except">Exceptions</td>
+     <td> TBD</td>
+     <td>
+         <p><a href="https://www.tutorialspoint.com/java/java_exceptions.htm" target="_blank">Exceptions</a> (TutorialsPoint)</p>
+         <p><a href="https://www.geeksforgeeks.org/exceptions-in-java/" target="_blank">Exceptions in Java</a> (GeeksforGeeks)</p>
+         <p><a href="https://www.javatpoint.com/exception-handling-in-java" target="_blank">Exception Handling</a> (JavaTPoint)</p>
+         <p><a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html" target="_blank">Exceptions</a> (Oracle)</p>
+     </td>
+   </tr>
+   <tr>
+     <td id="fx">JavaFX</td>
+     <td> TBD</td>
+     <td><p><a href="https://www.tutorialspoint.com/javafx/index.htm" target="_blank">JavaFX Tutorial</a> (TutorialsPoint)</p>
+         <p><a href="https://www.tutorialspoint.com/javafx/javafx_application.htm" target="_blank">JavaFX Application Structure</a> (TutorialsPoint)</p>
+         <p><a href="https://www.javacodegeeks.com/javafx-tutorials" target="_blank">JavaFX Tutorial</a> (JavaCodeGeeks)</p>
+         <p><a href="https://riptutorial.com/javafx" target="_blank">Getting Started with JavaFX</a> (RipTutorial)</p>
+     </td>
+   </tr>
+   </tbody>
+ </table>
 
-<h3 id="video-sections">Video Tutorials</h3>
+<!-- VIDEO RESOURCES TABLE-->
+
+<h3 id="video-ref">Video Resources</h3>
 
 <table>
  <thead>
    <tr>
-     <th>Topic</th>
-     <th>Watch Video</th>
-        <tr>
-          <td>Test</td>
-          <td><a href="https://www.youtube.com/embed/ZHLdVRXIuC8" target="_blank" class="btn btn-default">Watch Video</a></td>
-        </tr>
-
+     <th>Title</th>
+     <th>Video Resource</th>
    </tr>
  </thead>
  <tbody>
-
-
-</tbody>
+   <tr>
+     <td>Java Tutorial for Beginners</td>
+     <td><a href="https://www.youtube.com/embed/zYM8E08kaIY" target="_blank" class="btn btn-default">Watch Video</a></td>
+   </tr>
+   <tr>
+     <td>Running Your First Program</td>
+     <td><a href="https://www.youtube.com/embed/LiZFyLNtkM8" target="_blank" class="btn btn-default">Watch Video</a></td>
+   </tr>
+   <tr>
+     <td>Learn Java Programming</td>
+     <td><a href="https://www.youtube.com/embed/3WttL2K907w" target="_blank" class="btn btn-default">Watch Video</a></td>
+   </tr>
+ </tbody>
 </table>
 
+<!-- SOFTWARE RESOURCES TABLE-->
 
+<h3 id="soft-ref">Software Resources</h3>
 
-<!-- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/UCMM8kE7QQ4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div> -->
-
-<!-- <ol start="6">
-<li>After the verification. login to your account and download AutoCAD.</li>
-<li>Autodesk will send you a Product Key and Serial Number via e-mail for the product you selected. You will be prompted to enter the information provided in that e-mail.</li>
-<li>After verification of the Product Key and Serial Number, the installer will run for several minutes to two hours, depending on the product, your computer, and your Internet connection speed. The installer will provide you with an estimated time remaining.</li>
-<li>After the installer completes, launch the product.</li>
-</ol> -->
+<table>
+ <thead>
+   <tr>
+     <th>Java Software</th>
+     <th>Go to Website Download</td>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+   <td>JAVA SE Development Kit 8</td>
+   <td><a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank" class="btn btn-default">Go to Site</a></td>
+ </tr>
+ <tr>
+ <td>JAVA SE Runtime Environment 8</td>
+ <td><a href="https://www.oracle.com/java/technologies/javase-jre8-downloads.html" target="_blank" class="btn btn-default">Go to Site</a></td>
+</tr>
+   <tr>
+     <td>Eclipse IDE</td>
+     <td><a href="https://www.eclipse.org/downloads/" target="_blank" class="btn btn-default">Go to Site</a></td>
+   </tr>
+   <tr>
+   <td>Apache NetBeans IDE</td>
+   <td><a href="https://netbeans.apache.org/download/index.html" target="_blank" class="btn btn-default">Go to Site</a></td>
+ </tr>
+ <tr>
+ <td>IntelliJ IDE</td>
+ <td><a href="https://www.jetbrains.com/idea/" target="_blank" class="btn btn-default">Go to Site</a></td>
+</tr>
+<tr>
+<td>BlueJ IDE</td>
+<td><a href="https://www.bluej.org/" target="_blank" class="btn btn-default">Go to Site</a></td>
+</tr>
+ </tbody>
+</table>
 
 <div class="notices tip" ><p>Open Educational Resources (OER) are teaching and learning materials that you may freely use and reuse at no cost.</p>
 </div>
