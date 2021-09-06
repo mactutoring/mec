@@ -12,10 +12,20 @@
 
     <!-- <link href="/mec/css/theme.css?1606740312" rel="stylesheet"> -->
     <!-- <link href="/mec/css/theme-red.css?1606740312" rel="stylesheet"> -->
-
-
+    <style>
+    .grow img{
+      transition: 0.5s ease;
+      }
+      .grow img:hover{
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 0.5s ease;
+      
+      }
+</style>
   </head>
-  <body class="" data-url="/mec/officeSite/" style="background-color: red;"> 
+  <body class="" data-url="/mec/officeSite/" style="background-color: white;"> 
     
   <!-- <body class="" data-url="/mec/officeSite/" style="background-image: url('mec3.jpg');  
   background-size: 100% 100%;
@@ -25,21 +35,80 @@
 
     <nav id="sidebar" class="">
 
-      <div style=" flex-direction:column; background-color: blue;">
+      <div style="display:flex;
+      ">
+        <img src="LaGuardia_logo.png"
+          width="100" height="125" style="margin-top:20px;
+          margin-left: 20px;"/>
+        <p style="font-family:Arial;
+        font-size: 32px;
+        margin-left:20px;
+        margin-top:50px">MAC Department</p>
+      </div>
+      <div class="grow" style=" 
+        display:flex; 
+        flex-direction:row; 
+        margin-top:100px; 
+        justify-content: center; 
+        background-color: white;">
 
-        <div style=" background-color: white;">
-          One
+        <div style=" 
+          background-color: white;
+          margin:50px; 
+          ">
+            <a href="https://outlook.office365.com/owa/calendar/MACClassRSVP@CUNY907.onmicrosoft.com/bookings/">
+              <img src="tutoring.png" alt="Tutoring" width="200" height="200" style="border-radius: 10%;
+              ">
+            </a>
         </div>
 
-        <div style=" background-color: pink;">
-          Two
+        <div style=" 
+          background-color: white;
+          margin:50px;
+          ">
+            <a href="https://outlook.office365.com/owa/calendar/MECLabTech@CUNY907.onmicrosoft.com/bookings/">
+              <img src="techsup.png" alt="Tech Support" width="200" height="200" style="border-radius: 10%;">
+            </a>
+
         </div>
 
-        <div style=" background-color: greenyellow;">
-          Three
+        <div style=" 
+          background-color: white;
+          margin:50px;
+           ">
+            <a href="https://forms.gle/Qnqj3mbQ7WSSqHNL7">
+              <img src="questions.png" alt="questions" width="200" height="200" style="border-radius: 10%;">
+            </a>
+        </div>
+      </div>
+
+      <div style="display:flex; 
+        flex-direction: row; 
+        justify-content: right;">
+
+        <div style="
+          margin-top: 200px;
+          margin-right:10px;
+          ">
+
+          <img src="https://img.icons8.com/office/80/000000/faq.png"
+            width="50" height="50"/>
         </div>
 
+        <div style="
+          margin-top: 200px;
+          margin-right: 10px;
+          ">
+
+          <p style="font-family:Arial;
+            font-size: 18px;">
+            For Math and Engineering questions, please visit the MEC Department site on LaGuardia.edu</p>
+        </div>
+        
       </div>
     </nav>
+    
   </body>
 </html>
+
+
