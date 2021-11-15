@@ -10,7 +10,7 @@
   <link rel="icon" href="/mec/images/favicon.png" type="image/png">
 
   <!--Tab name-->
-  <title>MAC281 :: Discrete Structures</title>
+  <title>MAC237 :: Computer Security</title>
 
   <link href="/mec/css/nucleus.css?1606740312" rel="stylesheet">
   <link href="/mec/css/nucleus/css/fontawesome-all.min.css?1606740312" rel="stylesheet">
@@ -119,6 +119,20 @@
                   <a href="/mec/computer-science/courses/mac190/">MAC190</a>
                 </li>
 
+
+                 <li data-nav-id="/mec/computer-science/courses/mac220/" title="MAC220" class="dd-item ">
+                <a href="/mec/computer-science/courses/mac220/">MAC220</a>
+                </li>
+
+                 <li data-nav-id="/mec/computer-science/courses/mac221/" title="MAC221" class="dd-item ">
+                <a href="/mec/computer-science/courses/mac221/">MAC221</a>
+                </li>
+
+                <li data-nav-id="/mec/computer-science/courses/mac227/" title="MAC227" class="dd-item ">
+                <a href="/mec/computer-science/courses/mac227/">MAC227</a>
+                </li>
+                               
+
                 <li data-nav-id="/mec/computer-science/courses/mac232/" title="MAC232" class="dd-item ">
                   <a href="/mec/computer-science/courses/mac232/">MAC232</a>
                 </li>
@@ -137,6 +151,10 @@
 
                 <li data-nav-id="/mec/computer-science/courses/mac250/" title="MAC250" class="dd-item ">
                   <a href="/mec/computer-science/courses/mac250/">MAC250</a>
+                </li>
+
+                <li data-nav-id="/mec/computer-science/courses/mac257/" title="MAC257" class="dd-item ">
+                  <a href="/mec/computer-science/courses/mac257/">MAC257</a>
                 </li>
 
                 <li data-nav-id="/mec/computer-science/courses/mac281/" title="MAC281" class="dd-item ">
@@ -232,21 +250,30 @@
       <div id="body-inner">
 
         <!-- Class title -->
-        <h1> MAC281</h1>
-        <h1 id="">Discrete Structures</h1><br>
+        <h1> MAC237</h1>
+        <h1 id="">Computer Security</h1><br>
         <h2 id="">Open Educational Resources</h2>
 
         <ol>
           <li><a
-              href="https://www.laguardia.edu/uploadedFiles/Main_Site/Content/Academics/Departments/MEC/Doc/Syllabus/MAC281.pdf"
-              target="_blank"><b>Course Syllabus</b></a></li>
-          <li><a href="#oer-books"><b>OER Data Structures Textbooks</b></a></li>
+              href="https://www.laguardia.edu/uploadedfiles/main_site/content/academics/departments/mec/doc/computer_science/mac237syllabus.pdf"target="_blank"><b>Course Syllabus</b></a></li>
+          <li><a href="#oer-books"><b>OER Computer Security Textbooks</b></a></li>
+          <li><a href="#book-sections">Specific Topics</a>
+          <ul style="line-height:120%">
+            <li><a href="#two"> Encryption of Stored Data</a></li>
+            <li><a href="#three">User Authentication</a></li>
+            <li><a href="#four">Attacks</a></li>
+            <li><a href="#five">Software Security</a></li>
+            <li><a href="#six">Operating System Security</a></li>
+            <li><a href="#seven">Application Security</a></li>
+            <li><a href="#eight">Web attacks</a></li>
+          </ul>
           <li><a href="#add-ref"><b>Additional Resources</b></a></li>
         </ol>
         <br>
 
         <!--EBOOK RESOURCES TABLE-->
-        <h3 id="oer-books">Discrete Structures Textbooks</h3>
+        <h3 id="oer-books">Computer Security Textbooks</h3>
         <table>
           <thead>
             <tr>
@@ -256,40 +283,102 @@
           </thead>
           <tbody>
             <tr>
-              <td><b>Applied Discrete Structures</b></td>
-              <td><a href="http://discretemath.org/ads-latex/ads.pdf" target="_blank" class="btn btn-default">Read
+              <td><b>Computer Systems & Cyber Security: Open Educational Resources</b></td>
+              <td><a href="https://loyalistlibrary.com/computersystems/oer" target="_blank" class="btn btn-default">Read
                   eBook</a></td>
             </tr>
             <tr>
-              <td><b>Think Complexity</b></td>
-              <td><a href="http://www.oercommons.org/courses/think-complexity/view" target="_blank"
+              <td><b>Cybersecurity-Beyond Data Protection</b></td>
+              <td><a href="https://www.oercommons.org/courses/cybersecurity-beyond-data-protection-by-amy-j-ramson-and-ez-tech-assist" target="_blank"
                   class="btn btn-default">Read eBook</a></td>
             </tr>
             <tr>
-              <td><b>Discrete Mathematics: An Open Introduction</b></td>
-              <td><a href="http://www.oercommons.org/courses/discrete-mathematics-an-open-introduction/view"
+              <td><b>Cybersecurity-The Internet of Things</b></td>
+              <td><a href="https://www.oercommons.org/courses/cybersecurity-the-internet-of-things-by-amy-j-ramson"
                   target="_blank" class="btn btn-default">Read eBook</a></td>
             </tr>
-            <tr>
-              <td><b>A Spiral Workbook for Discrete Mathematics</b></td>
-              <td><a href="http://www.oercommons.org/courses/a-spiral-workbook-for-discrete-mathematics/view"
-                  target="_blank" class="btn btn-default">Read eBook</a></td>
-            </tr>
-            <tr>
-              <td><b>Applied Combinatorics</b></td>
-              <td><a href="https://rellek.net/book/app-comb.html" target="_blank" class="btn btn-default">Read eBook</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Abstract Algebra: Theory and Applications</b></td>
-              <td><a href="http://abstract.ups.edu/aata/aata-toc.html" target="_blank" class="btn btn-default">Read
-                  eBook</a></td>
-            </tr>
+            
           </tbody>
         </table>
         <br>
 
+           <h3 id="book-sections">Specific Topics</h3>
 
+   <table>
+    <thead>
+      <tr>
+        <th>Topic</th>
+        
+        <th>Web Resources</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td id="two">Encryption of Stored Data</td>
+      
+      <td>
+          <p><a href="https://digitalguardian.com/blog/what-data-encryption" target="_blank">What Is Data Encryption</a> (digitalguardian)</p>
+          <p><a href="https://cloudian.com/guides/data-protection/data-encryption/" target="_blank">Data Protection</a> (cloudian)</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="three">User Authentication</td>
+      
+      <td>
+        <p><a href="https://www.watchguard.com/training/fireware/82/authent2.htm" target="_blank">What is User Authentication?</a></p>
+        <p><a href="https://swoopnow.com/user-authentication/">Understanding the Basics & Top Tips</a> (swoopnow)</p>
+        <p><a href="https://www.okta.com/identity-101/authentication-vs-authorization/" target="_blank">Authentication vs. Authorization</a> (okta)</p>        
+      </td>
+    </tr>
+    <tr>
+      <td id="four">Attacks</td>
+     
+      <td>
+          <p><a href="https://www.infocyte.com/blog/2019/05/01/cybersecurity-101-intro-to-the-top-10-common-types-of-cyber-security-attacks/" target="_blank">Intro to the Top 10 Common Types of Cybersecurity Attacks</a> (infocyte)</p>
+          <p><a href="https://www.cisco.com/c/en/us/products/security/common-cyberattacks.html" target="_blank">What is a Cyberattack?</a> (cisco)</p>
+          <p><a href="https://www.rapid7.com/fundamentals/types-of-attacks/" target="_blank">Common Types of Cybersecurity Attacks</a>(rapid7)</p>
+    </td>
+    </tr>
+    
+    <tr>
+       <td id="five">Software Security</td>
+       <td>
+          <p><a href="https://www.techopedia.com/definition/24866/software-security#:~:text=Software%20security%20is%20an%20idea,provide%20integrity%2C%20authentication%20and%20availability." target="_blank">Software Security</a> (techopedia)</p>
+          <p><a href="https://www.synopsys.com/blogs/software-security/software-security/" target="_blank">Software Security</a> (synopsys)</p>
+          <p><a href="https://medium.com/the-framework-by-tangram-flex/what-is-software-security-e03a5ee7a6b5" target="_blank"></a>(medium)</p>
+          <p><a href="https://www.whitehatsec.com/glossary/content/software-security" target="_blank">Application Security Terminology</a>(whitehatsec)</p>
+       </td>
+    </tr>
+    <tr>
+      <td id="six">Operating System Security</td>
+      <td>
+        <p><a href="https://www.techopedia.com/definition/24774/operating-system-security-os-security#:~:text=Operating%20system%20security%20(OS%20security)%20is%20the%20process%20of%20ensuring,OS%20integrity%2C%20confidentiality%20and%20availability.&text=OS%20security%20encompasses%20all%20preventive,if%20OS%20security%20is%20compromised." target="_blank">OS Security</a> (techopedia) </p>
+        <p><a href="https://www.tutorialspoint.com/operating_system/os_security.htm" target="_blank">Operating System - Security</a> (tutorialspoint)</p>
+        <p><a href="https://www.hysolate.com/learn/sandboxing/understanding-os-security-threats-and-security-controls/" target="_blank">Understanding OS Security: Threats and Security Controls</a>(hysolate)</p>
+        <p><a href="https://medium.com/@rezaduty/os-security-892cfae5e930" target="_blank">OS Security</a>(medium)</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="seven">Application Security</td>
+      <td>
+        <p><a href="https://www.csoonline.com/article/3315700/what-is-application-security-a-process-and-tools-for-securing-software.html" target="_blank">A process and tools for securing software</a> (csoonline)</p>
+        <p><a href="https://www.vmware.com/topics/glossary/content/application-security#:~:text=Application%20security%20describes%20security%20measures,from%20being%20stolen%20or%20hijacked.&text=Application%20security%20may%20include%20hardware,identify%20or%20minimize%20security%20vulnerabilities." target="_blank">Application Security</a> (vmware)</p>
+        <p><a href="https://www.microfocus.com/en-us/what-is/application-security" target="_blank">Application Security</a>microfocus</p>
+        <p><a href="https://www.whitesourcesoftware.com/resources/blog/application-security/" target="_blank">Application Security - The Complete Guide</a>(whitesourcesoftware)</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="eight">Web attacks</td>
+      <td>
+        <p><a href="https://www.tripwire.com/state-of-security/featured/most-common-website-security-attacks-and-how-to-protect-yourself/" target="_blank">The State of Security</a> (tripwire)</p>
+          <p><a href="https://www.msspalert.com/cybersecurity-breaches-and-attacks/5-most-common-web-application-attacks/" target="_blank">5 Most common Web Attacks</a> (msspalert)</p>
+          <p><a href="https://www.hypr.com/secure-sockets-layer/" target="_blank">Secure Sockets Layer</a> (hypr)</p>
+          
+      </td>
+    </tr>
+    
+    </tbody>
+  </table>
 
         <!-- VIDEO RESOURCES TABLE-->
 
@@ -306,27 +395,18 @@
           </thead>
           <tbody>
             <tr>
-              <td><b>Discrete Mathematics: Lab and Lectures (ADUni)</b></td>
+              <td><b>Software Security (coursera)</b></td>
               <td>
-                <a href="http://www.oercommons.org/courses/discrete-mathematics/view" target="_blank"
+                <a href="https://www.coursera.org/learn/software-security" target="_blank"
                   class="btn btn-default"><i class="fas fa-download"></i>Go To Link</a>
               </td>
             </tr>
             <tr>
-              <td><b>Discrete Mathematics: Labs and Lecture (GGC)</b></td>
-              <td><a href="https://www.oercommons.org/courses/discrete-mathematics-2/view" target="_blank"
+              <td><b>Cybersecurity Courses (edx)</b></td>
+              <td><a href="https://www.edx.org/learn/cybersecurity" target="_blank"
                   class="btn btn-default"> <i class="fas fa-download"></i> Go To Link</a></td>
             </tr>
-            <tr>
-              <td><b>Discrete Structures: Course (Saylor Foundation)</b></td>
-              <td><a href="https://www.tutorialspoint.com/java/java_data_structures.htm" target="_blank"
-                  class="btn btn-default"> <i class="fas fa-download"></i> Go To Link</a></td>
-            </tr>
-            <tr>
-              <td><b>Discrete Mathematics: Combination Problems (MathWire)</b></td>
-              <td><a href="http://www.oercommons.org/courses/discrete-math/view" target="_blank"
-                  class="btn btn-default"> <i class="fas fa-download"></i> Go To Link</a></td>
-            </tr>
+            
           </tbody>
         </table>
 
